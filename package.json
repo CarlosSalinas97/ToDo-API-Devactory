@@ -1,0 +1,29 @@
+{
+  "name": "ToDo-Devactory",
+  "version": "1.0.0",
+  "description": "App ToDo para el desafio propuesto por la empresa Devactory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosSalinas97/ToDo-Devactory.git"
+  },
+  "keywords": [],
+  "author": "Carlos Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosSalinas97/ToDo-Devactory/issues"
+  },
+  "homepage": "https://github.com/CarlosSalinas97/ToDo-Devactory#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0"
+  }
+}
