@@ -30,7 +30,7 @@ app.get('/', function(req, res){
 app.use('/api', API)
 
 //Puerto
-app.set('puerto', 3000)
+app.set('puerto', process.env.PORT || 3000)
 app.listen(app.get('puerto'),function(){
   console.log('Prendido en el puerto '+app.get('puerto'));
 });
