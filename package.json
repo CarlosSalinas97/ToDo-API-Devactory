@@ -1,5 +1,5 @@
 {
-  "name": "ToDo-Devactory",
+  "name": "todo-devactory",
   "version": "1.0.0",
   "description": "App ToDo para el desafio propuesto por la empresa Devactory",
   "main": "app.js",
