@@ -10,9 +10,9 @@ _El ejercicio consiste en desarrollar una aplicación simple de gestión de tare
 
 ## Descripción de la aplicación
 
-_El usuario podrá crear una lista de tareas, marcarlas como finalizadas, borrarlas y filtrarlas por estado de las tareas (Todas, Pendientes, Completadas). La página cuenta con una guía de uso para aquellos nuevos usuarios._
+_El usuario podrá crear una lista de tareas, marcarlas como finalizadas, borrarlas y filtrarlas por estado de las tareas (Todas, Pendientes, Completadas). La página cuenta con una guía de uso para nuevos usuarios._
 _Las tareas tienen persistencia dentro de una base de datos en la nube para asegurar al usuario la disponibilidad de ellas en todo momento, desde cualquier dispositivo._
-_La página posee diseño responsivo, por lo que se puede acceder a ella mediante cualquier dispositivo con acceso a Internet._
+_La página posee un diseño responsivo, por lo que se puede acceder a ella mediante cualquier dispositivo con acceso a Internet._
 
 ---
 
@@ -29,7 +29,7 @@ _La página posee diseño responsivo, por lo que se puede acceder a ella mediant
 
 ## Endpoints
 ### [GET] /api/todo
-_Trae al usuario, la lista de todas las tareas._
+_Trae al usuario la lista de todas las tareas._
 ```
   https://todo-api-devactory.herokuapp.com/api/todo
 ```
@@ -78,7 +78,7 @@ _Las herramientas utilizadas para realizar el proyecto fueron:_
 ---
 
 # Instalacion 🔧
-_La API esta construida sobre [Node.js](https://nodejs.org/es/) v14.8.0, por lo que será necesario tenerlo instalado_
+_La API está construida sobre [Node.js](https://nodejs.org/es/) v14.8.0, por lo que será necesario tenerlo instalado_
 
 ## Prerequisitos:
 _Instalar todos los paquetes necesarios mediante el comando:_
@@ -92,7 +92,7 @@ _Para compilar y ejecutar, se deberá abrir la terminal en la dirección del pro
   nodemon run
 ```
 
-_La pagina se ejecutara en: http://127.0.0.1:3000/_
+_La pagina se ejecutará en: http://127.0.0.1:3000/_
 
 ---
     
