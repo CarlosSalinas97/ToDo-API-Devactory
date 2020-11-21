@@ -27,6 +27,31 @@ _La página posee diseño responsivo, por lo que se puede acceder a ella mediant
   https://todo-api-devactory.herokuapp.com/api/todo
 ```
 
+## Endpoints
+### [GET] /api/todo
+_Trae al usuario, la lista de todas las tareas._
+```
+  https://todo-api-devactory.herokuapp.com/api/todo
+```
+
+### [POST] /api/add
+_Crea una nueva tarea, recibe el campo 'texto'(string) del body._
+```
+  https://todo-api-devactory.herokuapp.com/api/add
+```
+
+### [PUT] /api/editar/:id
+_Permite modificar los campos 'texto'(string) y 'activo'(boolean) desde el body, pasando como parametro el 'id' correspondiente a la tarea._
+```
+  https://todo-api-devactory.herokuapp.com/api/editar/:id
+```
+
+### [DELETE] /api/borrar/:id
+_Elimina la tarea asociada al 'id' pasado como parametro_
+```
+  https://todo-api-devactory.herokuapp.com/api/borrar/:id
+```
+
 ---
 
 # Desarrollo ⚙️
@@ -72,5 +97,5 @@ _La pagina se ejecutara en: http://127.0.0.1:3000/_
 ---
     
 # Autor ✒️
-* **Salinas, Carlos**
-* [Linkedin](https://www.linkedin.com/in/carlos-ariel-salinas/)
+* **Salinas, Carlos** 
+[Linkedin](https://www.linkedin.com/in/carlos-ariel-salinas/)
